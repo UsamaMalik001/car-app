@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-outline {
+    @apply rounded-md
+        border-2
+        border-primary
+        hover:bg-primary/80
+        hover:text-black
+        duration-500
+        py-2
+        px-6
+        text-primary
+        tracking-wider;
+  }
+}
